@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO-Friendly Metadata -->
+  <title>School Management System | Easy & Secure Education Platform</title>
+  <meta name="description" content="Discover our modern school management system designed to simplify academic administration, student records, and communication between staff, students, and parents." />
+  <meta name="keywords" content="School Management System, Education Platform, Student Records, Parent Communication, School Software, Academic Management" />
+  <meta name="author" content="Your School Name" />
+
+  <!-- Optional CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #007BFF;
+    }
+    header, footer, section, nav, main {
+      padding: 1rem;
+    }
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: #000;
+      color: #fff;
+      padding: 8px;
+      z-index: 100;
+    }
+    .skip-link:focus {
+      top: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Accessibility: Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header and Navigation -->
+  <header role="banner">
+    <h1>Bull's Eye School Management System</h1>
+    <nav role="navigation" aria-label="Main Navigation">
+      <ul>
+        <li><a href="#home" aria-current="page">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content" role="main">
+    <!-- Hero Section -->
+    <section id="home" aria-labelledby="welcome-heading">
+      <h2 id="welcome-heading">Welcome to Our School Management Platform</h2>
+      <p>Our school management system provides a secure, user-friendly solution to streamline academic operations, manage student data, and enhance communication between educators, parents, and students.</p>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" aria-labelledby="features-heading">
+      <h2 id="features-heading">Key Features</h2>
+      <article>
+        <h3>Student Information Management</h3>
+        <p>Maintain detailed records for each student including grades, attendance, and performance history.</p>
+      </article>
+      <article>
+        <h3>Teacher & Staff Portal</h3>
+        <p>Manage class schedules, assessments, and internal communication with ease.</p>
+      </article>
+      <article>
+        <h3>Parent Communication Tools</h3>
+        <p>Parents can view grades, communicate with teachers, and stay updated on school events.</p>
+      </article>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" aria-labelledby="benefits-heading">
+      <h2 id="benefits-heading">Why Choose Our System?</h2>
+      <ul>
+        <li>✔️ Easy to use for teachers, students, and parents</li>
+        <li>✔️ Cloud-based access from anywhere</li>
+        <li>✔️ Secure and compliant with data protection standards</li>
+      </ul>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Get in Touch</h2>
+      <p>If you're interested in implementing our school management system or want a demo, contact us below:</p>
+      <form action="/submit" method="post" aria-label="Contact form">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required aria-required="true" />
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required aria-required="true" />
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" required aria-required="true"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Sidebar or Supplementary Info -->
+  <aside role="complementary" aria-labelledby="news-heading">
+    <h2 id="news-heading">Latest Updates</h2>
+    <p>Our newest version now includes real-time grading, parent SMS alerts, and mobile access for administrators.</p>
+  </aside>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <p>&copy; 2025 Bull's Eye School Management System. All rights reserved.</p>
+    <nav aria-label="Footer Navigation">
+      <ul>
+        <li><a href="#privacy">Privacy Policy</a></li>
+        <li><a href="#terms">Terms of Service</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>
